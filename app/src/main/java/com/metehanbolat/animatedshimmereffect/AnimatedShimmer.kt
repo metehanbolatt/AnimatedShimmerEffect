@@ -32,7 +32,8 @@ fun AnimatedShimmer() {
             animation = tween(
                 durationMillis = 1000,
                 easing = FastOutSlowInEasing
-            )
+            ),
+            repeatMode = RepeatMode.Reverse
         )
     )
 
